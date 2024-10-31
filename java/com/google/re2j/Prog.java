@@ -10,8 +10,8 @@ package com.google.re2j;
 import java.util.ArrayList;
 import java.util.List;
 
-import io.airlift.slice.SliceOutput;
-import io.airlift.slice.Slices;
+import com.facebook.slice.SliceOutput;
+import com.facebook.slice.Slices;
 
 import static com.google.re2j.Inst.Op.BYTE;
 import static com.google.re2j.Inst.Op.MATCH;

@@ -26,10 +26,10 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import io.airlift.slice.DynamicSliceOutput;
-import io.airlift.slice.Slice;
-import io.airlift.slice.SliceOutput;
-import io.airlift.slice.Slices;
+import com.facebook.slice.DynamicSliceOutput;
+import com.facebook.slice.Slice;
+import com.facebook.slice.SliceOutput;
+import com.facebook.slice.Slices;
 
 import static com.google.re2j.MachineInput.EOF;
 import static com.google.re2j.Options.Algorithm.DFA;

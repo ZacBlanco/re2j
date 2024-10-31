@@ -4,7 +4,7 @@ package com.google.re2j;
 
 import java.io.Serializable;
 
-import io.airlift.slice.Slice;
+import com.facebook.slice.Slice;
 
 import static com.google.re2j.Options.DEFAULT_OPTIONS;
 import static com.google.re2j.RE2.Anchor.ANCHOR_BOTH;

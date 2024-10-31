@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
-import static io.airlift.slice.Slices.utf8Slice;
+import static com.facebook.slice.Slices.utf8Slice;
 import static org.junit.Assert.fail;
 
 @RunWith(Enclosed.class)

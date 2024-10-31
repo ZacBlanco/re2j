@@ -17,11 +17,11 @@ import com.google.caliper.api.VmOptions;
 
 import java.util.regex.Pattern;
 
-import io.airlift.slice.Slice;
+import com.facebook.slice.Slice;
 
 import static com.google.re2j.Options.DEFAULT_OPTIONS;
-import static io.airlift.slice.Slices.EMPTY_SLICE;
-import static io.airlift.slice.Slices.utf8Slice;
+import static com.facebook.slice.Slices.EMPTY_SLICE;
+import static com.facebook.slice.Slices.utf8Slice;
 import static org.junit.Assert.fail;
 
 /**

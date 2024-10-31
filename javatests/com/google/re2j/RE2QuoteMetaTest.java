@@ -1,7 +1,7 @@
 package com.google.re2j;
 
 import static com.google.re2j.Options.DEFAULT_OPTIONS;
-import static io.airlift.slice.Slices.utf8Slice;
+import static com.facebook.slice.Slices.utf8Slice;
 import static org.junit.Assert.fail;
 
 import org.junit.Test;

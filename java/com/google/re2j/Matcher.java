@@ -4,9 +4,9 @@ package com.google.re2j;
 
 import com.google.re2j.RE2.Anchor;
 
-import io.airlift.slice.DynamicSliceOutput;
-import io.airlift.slice.Slice;
-import io.airlift.slice.SliceOutput;
+import com.facebook.slice.DynamicSliceOutput;
+import com.facebook.slice.Slice;
+import com.facebook.slice.SliceOutput;
 
 import static com.google.re2j.RE2.Anchor.ANCHOR_BOTH;
 import static com.google.re2j.RE2.Anchor.ANCHOR_START;

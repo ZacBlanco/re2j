@@ -19,10 +19,10 @@ import org.junit.runners.Parameterized.Parameters;
 import java.util.Arrays;
 import java.util.List;
 
-import io.airlift.slice.Slice;
+import com.facebook.slice.Slice;
 
 import static com.google.re2j.ApiTest.slicesToStrings;
-import static io.airlift.slice.Slices.utf8Slice;
+import static com.facebook.slice.Slices.utf8Slice;
 import static org.junit.Assert.fail;
 
 @RunWith(Enclosed.class)

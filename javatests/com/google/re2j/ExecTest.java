@@ -20,13 +20,13 @@ import java.util.Collections;
 import java.util.List;
 import java.util.zip.GZIPInputStream;
 
-import io.airlift.slice.Slice;
+import com.facebook.slice.Slice;
 
 import static com.google.common.collect.Lists.newArrayList;
 import static com.google.re2j.ApiTest.slicesToStrings;
 import static com.google.re2j.RE2.MatchKind.FIRST_MATCH;
 import static com.google.re2j.RE2.MatchKind.LONGEST_MATCH;
-import static io.airlift.slice.Slices.utf8Slice;
+import static com.facebook.slice.Slices.utf8Slice;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
 

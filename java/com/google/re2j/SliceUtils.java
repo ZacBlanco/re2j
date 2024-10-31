@@ -13,8 +13,8 @@
  */
 package com.google.re2j;
 
-import io.airlift.slice.Slice;
-import io.airlift.slice.SliceOutput;
+import com.facebook.slice.Slice;
+import com.facebook.slice.SliceOutput;
 
 /**
  * Utility methods related to {@link Slice} class.

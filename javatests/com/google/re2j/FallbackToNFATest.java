@@ -11,11 +11,11 @@ import com.google.re2j.DFA.DFATooManyStatesException;
 
 import org.junit.Test;
 
-import io.airlift.slice.Slice;
+import com.facebook.slice.Slice;
 
 import static com.google.re2j.Options.Algorithm.DFA;
 import static com.google.re2j.Options.Algorithm.DFA_FALLBACK_TO_NFA;
-import static io.airlift.slice.Slices.utf8Slice;
+import static com.facebook.slice.Slices.utf8Slice;
 import static java.lang.String.format;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;

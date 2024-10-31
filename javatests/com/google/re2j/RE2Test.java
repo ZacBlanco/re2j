@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
 
 import static com.google.re2j.RE2.Anchor.ANCHOR_BOTH;
 import static com.google.re2j.RE2.Anchor.UNANCHORED;
-import static io.airlift.slice.Slices.utf8Slice;
+import static com.facebook.slice.Slices.utf8Slice;
 import static org.junit.Assert.assertEquals;
 
 

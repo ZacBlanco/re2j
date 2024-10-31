@@ -4,7 +4,7 @@
 
 package com.google.re2j;
 
-import io.airlift.slice.Slice;
+import com.facebook.slice.Slice;
 
 import static com.google.re2j.MachineInput.EOF;
 

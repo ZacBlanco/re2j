@@ -11,7 +11,7 @@ import sun.misc.Unsafe;
 
 import java.lang.reflect.Field;
 
-import io.airlift.slice.Slice;
+import com.facebook.slice.Slice;
 
 /**
  * MachineInput represents the UTF-8 input text supplied to the Machine. It provides one-character

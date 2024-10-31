@@ -6,11 +6,11 @@ import org.junit.Test;
 import org.junit.experimental.runners.Enclosed;
 import org.junit.runner.RunWith;
 
-import io.airlift.slice.DynamicSliceOutput;
-import io.airlift.slice.Slice;
-import io.airlift.slice.SliceOutput;
+import com.facebook.slice.DynamicSliceOutput;
+import com.facebook.slice.Slice;
+import com.facebook.slice.SliceOutput;
 
-import static io.airlift.slice.Slices.utf8Slice;
+import static com.facebook.slice.Slices.utf8Slice;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
